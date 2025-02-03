@@ -71,7 +71,7 @@ export function Model({ kpi, value, visibleFloor }) {
       {/* Add Text as a child of the specific node if needed */}
       {scene.getObjectByName("FirstFloorBall") && (
         <Text
-        position={[-0.001, 0.02, 0.02]} 
+          position={[-0.001, 0.02, 0.02]}
           // position={[0.05, 0.065, -0.045]} // Adjust to place text in front
           // rotation={[0, 1.56, 0]}
           fontSize={0.002}
